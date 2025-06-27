@@ -1,109 +1,54 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SlotMais - O Cassino de Slots do Brasil</title>
-  <meta name="description" content="SlotMais - O melhor cassino de slots do Brasil. Bônus, giros grátis, pagamentos instantâneos e prêmios reais." />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SLOTMAIS</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css" />
+
+<!-- JS -->
+<script src="js/script.js"></script>
 
   <!-- Header -->
-  <header>
-    <a href="#" class="logo"> 
-      <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#ffcc00;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#ff3399;stop-opacity:1" />
-          </linearGradient>
-        </defs>
-        <!-- Slot Machine -->
-        <rect x="10" y="15" rx="5" ry="5" width="60" height="50" fill="#1a1a1a" stroke="#fff" stroke-width="2"/>
-        <!-- Reels -->
-        <rect x="20" y="25" rx="3" ry="3" width="15" height="30" fill="url(#grad1)" />
-        <rect x="40" y="25" rx="3" ry="3" width="15" height="30" fill="url(#grad1)" />
-        <rect x="60" y="25" rx="3" ry="3" width="15" height="30" fill="url(#grad1)" />
-        <!-- Texto SlotMais -->
-        <text x="90" y="50" font-family="'Orbitron', sans-serif" font-size="24" fill="gold">Slot</text>
-        <text x="150" y="50" font-family="'Orbitron', sans-serif" font-size="24" fill="white">Mais</text>
-        <!-- Moeda dourada -->
-        <circle cx="70" cy="20" r="8" fill="gold" stroke="#d4af37" stroke-width="2"/>
-        <text x="66" y="24" font-family="'Orbitron', sans-serif" font-size="10" fill="#1b0f2b" font-weight="bold">$</text>
-      </svg>
-    </a>
-    <div>
-      <button id="login-btn" class="auth-btn">Login</button>
-      <button id="register-btn" class="auth-btn">Cadastro</button>
-    </div>
+  <header class="header">
+    <div class="logo">🎰 SLOTMAIS</div>
+    <nav class="nav">
+      <a href="#">Início</a>
+      <a href="#">Jogos</a>
+      <a href="#">Promoções</a>
+      <a href="#">Suporte</a>
+      <button onclick="location.href='login.html'" class="btn-login">Login</button>
+      <button onclick="location.href='register.html'" class="btn-register">Cadastro</button>
+    </nav>
   </header>
 
-  <!-- Conteúdo principal -->
-  <main>
-    <section class="hero">
-      <h1>Bem-vindo ao SlotMais!</h1>
-      <p>O melhor cassino de slots do Brasil. Bônus, giros grátis e prêmios reais!</p>
-      <button class="cta-btn" id="play-now-btn">Jogar Agora</button>
-    </section>
+  <!-- Banner Principal -->
+  <section class="hero">
+    <h1>Bem-vindo ao SLOTMAIS</h1>
+    <p>Jogue os melhores slots online com segurança e diversão!</p>
+    <button onclick="scrollToGames()" class="btn-primary">Ver Jogos</button>
+  </section>
 
-    <!-- Jogos -->
-    <section class="games">
-      <h2>Jogos Populares</h2>
-      <div class="game-grid">
-        <div class="game-card">
-          <svg class="game-image-svg" viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg">
-            <rect width="150" height="100" fill="#ff6666" rx="15" ry="15"/>
-            <circle cx="40" cy="50" r="20" fill="yellow" />
-            <circle cx="75" cy="50" r="20" fill="red" />
-            <circle cx="110" cy="50" r="20" fill="orange" />
-          </svg>
-          <button>Jogar</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Painel do usuário -->
-    <section id="user-panel">
-      <h2>Bem-vindo, <span id="user-name"></span>!</h2>
-      <div id="balance-section">
-        <h3>Seu saldo:</h3>
-        <div id="balance">R$ 0,00</div>
-        <form id="deposit-form">
-          <input type="number" id="deposit-amount" placeholder="Ex: 50" min="1" required />
-          <button type="submit">Depositar</button>
-        </form>
-        <div id="history"><p><em>Histórico vazio.</em></p></div>
-      </div>
-      <button id="logout-btn">Sair</button>
-    </section>
-
-    <!-- Modal Login/Cadastro -->
-    <div class="modal-bg" id="modal-bg">
-      <div class="modal">
-        <button class="close-btn" id="modal-close">&times;</button>
-        <h2 id="modal-title">Login</h2>
-        <form id="auth-form">
-          <label for="username">Usuário:</label>
-          <input type="text" id="username" autocomplete="username" required minlength="4" maxlength="20" pattern="[\w]{4,20}" />
-          <label for="password">Senha:</label>
-          <input type="password" id="password" autocomplete="current-password" required minlength="6" />
-          <div id="auth-message"></div>
-          <button type="submit" id="submit-btn">Entrar</button>
-        </form>
-        <p id="toggle-auth-text">Não tem conta?</p>
-        <button id="toggle-auth-btn">Cadastre-se</button>
-      </div>
+  <!-- Seção de Jogos -->
+  <section class="games" id="games">
+    <h2>Nossos Jogos</h2>
+    <div class="game-grid">
+      <div class="game-card"><img src="https://via.placeholder.com/200x120?text=Slot+1" alt="Slot 1"></div>
+      <div class="game-card"><img src=" https://via.placeholder.com/200x120?text=Slot+2" alt="Slot 2"></div>
+      <div class="game-card"><img src=" https://via.placeholder.com/200x120?text=Slot+3" alt="Slot 3"></div>
+      <div class="game-card"><img src=" https://via.placeholder.com/200x120?text=Slot+4" alt="Slot 4"></div>
     </div>
-  </main>
+  </section>
 
-  <footer>
-    &copy; 2025 SlotMais. Todos os direitos reservados.
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2025 SLOTMAIS. Todos os direitos reservados.</p>
   </footer>
 
-  <!-- Scripts -->
   <script src="script.js"></script>
-
 </body>
 </html>
