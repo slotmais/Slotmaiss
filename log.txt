@@ -1,0 +1,8 @@
+[2025-02-18 13:44:05] Dados JSON enviados: {"method":"user_deposit","agent_code":"28fd0b9c-7004-46fd-8922-cebc96827215","agent_token":"efd02bfb-c25f-4631-a9aa-193d7daa342e","user_code":"bjslary","amount":2}
+[2025-02-18 13:44:05] Resposta da API: {"status":0,"msg":"O Agente é inválido"}
+[2025-02-18 13:45:05] Dados JSON enviados: {"method":"user_deposit","agent_code":"28fd0b9c-7004-46fd-8922-cebc96827215","agent_token":"efd02bfb-c25f-4631-a9aa-193d7daa342e","user_code":"daanrox","amount":20}
+[2025-02-18 13:45:06] Resposta da API: {"status":0,"msg":"O Agente é inválido"}
+[2025-02-18 13:47:57] Dados JSON enviados: {"method":"user_deposit","agent_code":"28fd0b9c-7004-46fd-8922-cebc96827215","agent_token":"efd02bfb-c25f-4631-a9aa-193d7daa342e","user_code":"daanrox","amount":100}
+[2025-02-18 13:47:57] Resposta da API: {"status":0,"msg":"O Agente é inválido"}
+[2025-02-18 13:50:29] Dados JSON enviados: {"method":"user_deposit","agent_code":"28fd0b9c-7004-46fd-8922-cebc96827215","agent_token":"efd02bfb-c25f-4631-a9aa-193d7daa342e","user_code":"bjslary","amount":1}
+[2025-02-18 13:50:30] Resposta da API: {"status":0,"msg":"O Agente é inválido"}
