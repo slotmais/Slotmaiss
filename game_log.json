@@ -1,0 +1,646 @@
+[
+    {
+        "timestamp": "2024-11-29 07:31:55",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 1,
+                "agent_balance": 10,
+                "user_total_credit": 49.44000000000002,
+                "user_total_debit": 39.6,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "02f419d9-13ae-49bc-976a-cb50cb1d157d",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0.8,
+                    "txn_id": "0c676759-0e93-4d82-a2bd-948bc5647f9d",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 1,
+                    "user_after_balance": 1.4,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:31:55.917Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:31:55",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 1.4,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 1.4
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:00",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 1.4,
+                "agent_balance": 10,
+                "user_total_credit": 50.24000000000002,
+                "user_total_debit": 40,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "a1f8b431-0c34-413e-82ff-2bf7b8b8d5c5",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0.4,
+                    "txn_id": "7897840d-9899-485d-ae42-8f36ec03d754",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 1.4,
+                    "user_after_balance": 1.4,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:00.142Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:00",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 1.4,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 1.4
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:02",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 1.4,
+                "agent_balance": 10,
+                "user_total_credit": 50.64000000000002,
+                "user_total_debit": 40.4,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "5babdd19-3e78-4112-9346-9cbd7debc66f",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0,
+                    "txn_id": "8e718732-5161-4a20-9556-8629810a2033",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 1.4,
+                    "user_after_balance": 0.9999999999999999,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:02.593Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:02",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 0.9999999999999999,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.9999999999999999
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:04",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 0.9999999999999999,
+                "agent_balance": 10,
+                "user_total_credit": 50.64000000000002,
+                "user_total_debit": 40.8,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "d9b14b54-f727-4b35-b6ca-ceeaf04f8c66",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0,
+                    "txn_id": "afaca37e-3d52-45b8-88c1-b0f0db87c84c",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 0.9999999999999999,
+                    "user_after_balance": 0.5999999999999999,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:04.182Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:04",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 0.5999999999999999,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.5999999999999999
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:05",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 0.5999999999999999,
+                "agent_balance": 10,
+                "user_total_credit": 50.64000000000002,
+                "user_total_debit": 41.2,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "c20d4a4b-2e43-40ae-9e2e-cd3f0c492b16",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0.24,
+                    "txn_id": "204f0d90-3ae0-4c6d-b13f-eeeb056e2356",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 0.5999999999999999,
+                    "user_after_balance": 0.43999999999999984,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:05.433Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:05",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 0.43999999999999984,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.43999999999999984
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:13",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 0.4399999999999998,
+                "agent_balance": 10,
+                "user_total_credit": 50.88000000000002,
+                "user_total_debit": 41.6,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "56d1eb84-09fb-4441-bdcc-83fb5704cdee",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0.64,
+                    "txn_id": "b4fb1a4e-b799-4256-8bc7-308fff0640da",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 0.4399999999999998,
+                    "user_after_balance": 0.6799999999999998,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:13.817Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:13",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 0.6799999999999998,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.6799999999999998
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:15",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 0.6799999999999997,
+                "agent_balance": 10,
+                "user_total_credit": 51.52000000000002,
+                "user_total_debit": 42,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "ed136014-63f4-49f0-bb33-7e895cd33d3e",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0.24,
+                    "txn_id": "de05caf6-bb25-446d-aa75-6ee61564fcea",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 0.6799999999999997,
+                    "user_after_balance": 0.5199999999999997,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:15.401Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:15",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 0.5199999999999997,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.5199999999999997
+        }
+    },
+    {
+        "timestamp": "2024-11-29 07:32:17",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "fivegaming",
+                "user_balance": 0.5199999999999997,
+                "agent_balance": 10,
+                "user_total_credit": 51.76000000000002,
+                "user_total_debit": 42.4,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "dcc00666-c5a4-4eea-aa83-ca29463c1e61",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0,
+                    "txn_id": "458c72b9-78a7-40df-bd35-681623ed9e4b",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 0.5199999999999997,
+                    "user_after_balance": 0.11999999999999966,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T10:32:17.128Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 07:32:17",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 0.11999999999999966,
+            "user_id": 483856
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 0.11999999999999966
+        }
+    },
+    {
+        "timestamp": "2024-11-29 18:31:07",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "yarkan",
+                "user_balance": 29,
+                "agent_balance": 10,
+                "user_total_credit": 0,
+                "user_total_debit": 0,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-dragon",
+                    "round_id": "28f5b7f9-ff80-4758-a1d9-23009e920f97",
+                    "type": "BASE",
+                    "bet": 0.8,
+                    "win": 0,
+                    "txn_id": "ef5d1c9e-d00c-443f-a629-193fe3199a10",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 29,
+                    "user_after_balance": 28.2,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T21:31:07.453Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 18:31:07",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 28.2,
+            "user_id": 483859
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 28.2
+        }
+    },
+    {
+        "timestamp": "2024-11-29 18:31:10",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "yarkan",
+                "user_balance": 28.2,
+                "agent_balance": 10,
+                "user_total_credit": 0,
+                "user_total_debit": 0.8,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-dragon",
+                    "round_id": "15507326-bd0e-4388-b706-f2f3451ec91b",
+                    "type": "BASE",
+                    "bet": 0.8,
+                    "win": 0,
+                    "txn_id": "95e0f844-ac21-4d25-8e0c-91ade43159da",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 28.2,
+                    "user_after_balance": 27.4,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-29T21:31:10.330Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-29 18:31:10",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 27.4,
+            "user_id": 483859
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 27.4
+        }
+    },
+    {
+        "timestamp": "2024-11-30 09:23:43",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "teste1",
+                "user_balance": 16,
+                "agent_balance": 10,
+                "user_total_credit": 0,
+                "user_total_debit": 0,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-dragon",
+                    "round_id": "3561acb9-474e-42b8-9bf5-3585c99b6950",
+                    "type": "BASE",
+                    "bet": 12.000000000000002,
+                    "win": 0,
+                    "txn_id": "d84495f3-aafa-4589-b98c-6181e8c7ee93",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 16,
+                    "user_after_balance": 3.9999999999999982,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-30T12:23:43.462Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-30 09:23:43",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 3.9999999999999982,
+            "user_id": 483877
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 3.9999999999999982
+        }
+    },
+    {
+        "timestamp": "2024-11-30 09:25:53",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "yarkanfive",
+                "agent_secret": "yarkanfive2",
+                "user_code": "teste2",
+                "user_balance": 16,
+                "agent_balance": 10,
+                "user_total_credit": 0,
+                "user_total_debit": 0,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-dragon",
+                    "round_id": "d09ba044-793b-4653-ab08-27014ba87073",
+                    "type": "BASE",
+                    "bet": 12.000000000000002,
+                    "win": 0,
+                    "txn_id": "de0e9e34-f802-48c7-8c19-4ebcca18b1f5",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 16,
+                    "user_after_balance": 3.9999999999999982,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-11-30T12:25:53.555Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-11-30 09:25:53",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 3.9999999999999982,
+            "user_id": 483878
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 3.9999999999999982
+        }
+    },
+    {
+        "timestamp": "2024-12-09 14:56:52",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "natalpg",
+                "agent_secret": "natalpg2",
+                "user_code": "mayconfeu",
+                "user_balance": 3.96,
+                "agent_balance": 6.511515616516516e+38,
+                "user_total_credit": 0,
+                "user_total_debit": 0,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "dd1d8dd6-93a8-4ce9-8239-3165caf3d627",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0,
+                    "txn_id": "83006b95-b021-4cad-aef8-073fefb58f91",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 3.96,
+                    "user_after_balance": 3.56,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-12-09T17:56:52.273Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-12-09 14:56:52",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 3.56,
+            "user_id": 483903
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 3.56
+        }
+    },
+    {
+        "timestamp": "2024-12-09 14:56:57",
+        "request": {
+            "action": "request_received",
+            "data": {
+                "agent_code": "natalpg",
+                "agent_secret": "natalpg2",
+                "user_code": "mayconfeu",
+                "user_balance": 3.56,
+                "agent_balance": 6.511515616516516e+38,
+                "user_total_credit": 0,
+                "user_total_debit": 0.4,
+                "game_type": "slot",
+                "slot": {
+                    "provider_code": "PGSOFT",
+                    "game_code": "fortune-tiger",
+                    "round_id": "461c3c5d-9621-4798-bbf6-cf702bcac3c2",
+                    "type": "BASE",
+                    "bet": 0.4,
+                    "win": 0,
+                    "txn_id": "c943cbb1-5d56-4922-94db-ed2a77e416a5",
+                    "txn_type": "debit_credit",
+                    "is_buy": false,
+                    "is_call": false,
+                    "user_before_balance": 3.56,
+                    "user_after_balance": 3.16,
+                    "agent_before_balance": 100,
+                    "agent_after_balance": 100,
+                    "created_at": "2024-12-09T17:56:56.993Z"
+                }
+            }
+        },
+        "response": null
+    },
+    {
+        "timestamp": "2024-12-09 14:56:57",
+        "request": {
+            "action": "update_balance_success",
+            "new_balance": 3.16,
+            "user_id": 483903
+        },
+        "response": {
+            "status": 1,
+            "user_balance": 3.16
+        }
+    }
+]
